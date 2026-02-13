@@ -61,19 +61,19 @@ function LoveLetterModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => 
           </p>
           <p className="text-gray-700 leading-relaxed">
             From the moment you walked into my life, everything changed. 
-            You brought colors to my gray world, laughter to my quiet days, 
+            You brought colors to my gray and lonely world, laughter to my quiet days, 
             and a love I never knew was possible.
           </p>
           <p className="text-gray-700 leading-relaxed">
             Every day with you feels like a beautiful adventure. 
-            Your smile is my favorite sight, your voice is my favorite sound, 
+            Your smile is my favorite sight oh yeah that smile is like a universe to me nawara, your voice is my favorite sound, 
             and your love is my greatest treasure.
           </p>
           <p className="text-gray-700 leading-relaxed">
             Thank you for being you, for loving me, and for making every moment magical.
           </p>
           <p className="text-gray-700 leading-relaxed font-semibold mt-4">
-            Forever Yours,<br/>
+            Forever Yours Firas,<br/>
             With All My Love &hearts;
           </p>
         </div>
@@ -160,7 +160,7 @@ function PhotoUploadModal({
             <Camera className="w-8 h-8 text-purple-500" />
           </div>
           <h3 className="text-2xl font-bold text-gray-800">Add Your Photo</h3>
-          <p className="text-gray-500 mt-2">Upload a special memory together</p>
+          <p className="text-gray-500 mt-2">Tsawerna</p>
         </div>
 
         {!previewUrl ? (
@@ -174,7 +174,7 @@ function PhotoUploadModal({
             onClick={() => fileInputRef.current?.click()}
           >
             <Upload className="w-12 h-12 text-purple-400 mx-auto mb-4" />
-            <p className="text-gray-600 font-medium mb-2">Drag & drop your photo here</p>
+            <p className="text-gray-600 font-medium mb-2">N7oto Tsawer Hne</p>
             <p className="text-gray-400 text-sm">or click to browse</p>
             <input
               ref={fileInputRef}
@@ -366,16 +366,16 @@ export default function ValentinePage() {
   }))
 
   const reasons = [
-    "Your beautiful smile that lights up my entire world",
-    "The way you laugh at my silly jokes",
-    "Your kindness that touches everyone around you",
+    "Your beautiful smile that lights up my entire world and universe w denya el kol",
+    "The way you laugh",
+    "Your kindness and inoocence that touches everyone around you",
     "How you make ordinary moments feel extraordinary",
-    "Your unwavering support and belief in me",
-    "The warmth of your hugs that feels like home",
-    "Your adorable quirks that make you uniquely you",
+    "Your unwavering support and belief in me no matter what",
+    "The warmth of your hugs that feels like the world",
+    "Your adorable quirks that make you unique and adorable",
     "How you understand me without words",
-    "The adventures we share together",
-    "Simply being the most amazing person I know",
+    "The adventures we share together and were going to live togther",
+    "Your cheer Will and commitemen ",
   ]
 
   const handleHeartClick = (e: React.MouseEvent) => {
@@ -464,7 +464,7 @@ export default function ValentinePage() {
           >
             <span className="flex items-center gap-2">
               <Mail className="w-5 h-5" />
-              Open Your Love Letter
+              Enzel Aaleya
             </span>
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-violet-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl -z-10" />
           </button>
@@ -502,7 +502,7 @@ export default function ValentinePage() {
             <MemoryCard
               image="/hearts.png"
               title="Forever"
-              description="My heart belongs to you always"
+              description="My heart belongs Ken lik inti"
             />
           </div>
         </div>
@@ -537,17 +537,17 @@ export default function ValentinePage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-gradient-to-br from-purple-500 to-violet-500 rounded-3xl p-8 md:p-12 text-white text-center shadow-2xl">
             <Heart className="w-16 h-16 mx-auto mb-6 fill-white/30" />
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">My Promise To You</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">My Promise Lik inti</h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="space-y-2">
                 <Clock className="w-8 h-8 mx-auto" />
                 <h3 className="font-semibold text-lg">Always There</h3>
-                <p className="text-white/80 text-sm">Through every moment, big or small</p>
+                <p className="text-white/80 text-sm">Through every moment, big or small or super tiny</p>
               </div>
               <div className="space-y-2">
                 <MapPin className="w-8 h-8 mx-auto" />
                 <h3 className="font-semibold text-lg">By Your Side</h3>
-                <p className="text-white/80 text-sm">Wherever life takes us together</p>
+                <p className="text-white/80 text-sm">Wherever life takes us together in bad or good</p>
               </div>
               <div className="space-y-2">
                 <Music className="w-8 h-8 mx-auto" />
@@ -570,7 +570,7 @@ export default function ValentinePage() {
             I Love You
           </h3>
           <p className="text-gray-600 mb-6">
-            Today, Tomorrow, and Forever
+            Today, Tomorrow, and Forever and to eternity
           </p>
           <div className="flex justify-center gap-2 text-3xl">
             {['💜', '💖', '💜', '💗', '💜'].map((emoji, i) => (
@@ -584,7 +584,7 @@ export default function ValentinePage() {
             ))}
           </div>
           <p className="mt-8 text-sm text-gray-400">
-            Made with love, just for you
+            Made with love, just Dr Nawara Ben Sadok (Ser9a le bellehi) this is only for her
           </p>
         </div>
       </footer>
