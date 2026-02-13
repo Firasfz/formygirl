@@ -1,12 +1,9 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  output: "standalone",
-  /* config options here */
-  typescript: {
-    ignoreBuildErrors: true,
+const nextConfig = {
+  output: 'export',
+  basePath: '/formygirl',
+  images: {
+    unoptimized: true,
   },
-  reactStrictMode: false,
-};
+}
 
-export default nextConfig;
+export default nextConfig
